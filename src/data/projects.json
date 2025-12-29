@@ -24,6 +24,13 @@
     "source": "https://github.com/TazeemTayob17/PL-25-26-ML-Prediction"
   },
   {
+    "title": "Expense Tracker",
+    "imageSrc": "projects/expense-tracker-app-icon.png",
+    "description": "MERN stack app to help budget and track your income and expenses",
+    "skills": ["MERN stack", "Javascript", "TailwindCSS"],
+    "source": "https://github.com/TazeemTayob17/ExpenseTracker"
+  },
+  {
     "title": "8 Puzzle Solver",
     "imageSrc": "projects/8puzzle.png",
     "description": "Built different search algorithms to solve the 8 puzzle problem and compared their performances.",
