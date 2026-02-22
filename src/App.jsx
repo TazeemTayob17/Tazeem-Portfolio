@@ -6,6 +6,7 @@ import Skills from "./components/Skills/Skills.jsx";
 import Hero from "./components/Hero/Hero.jsx";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import Projects from "./components/Projects/Projects.jsx";
+import WorkExperience from "./components/WorkExperience/WorkExperience.jsx";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <WorkExperience />
       <Projects />
       <Skills />
       <ContactTest />
