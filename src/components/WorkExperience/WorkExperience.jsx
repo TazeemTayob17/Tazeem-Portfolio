@@ -24,7 +24,9 @@ function WorkExperience() {
         <div className={styles.card}>
           <div className={styles.cardHeader}>
             <div>
-              <h3 className={styles.roleTitle}>Software Engineering Internship</h3>
+              <h3 className={styles.roleTitle}>
+                Software Engineering Internship
+              </h3>
               <div className={styles.company}>BBD Software</div>
             </div>
 
@@ -33,8 +35,13 @@ function WorkExperience() {
               {/* attempt to load a BBD/company logo from src/assets/company/ */}
               {(() => {
                 try {
-                  const modules = import.meta.glob('../../assets/company/*.{png,jpg,jpeg,svg}', { eager: true, as: 'url' });
-                  const entry = Object.entries(modules).find(([p]) => p.toLowerCase().includes('bbd'));
+                  const modules = import.meta.glob(
+                    "../../assets/company/*.{png,jpg,jpeg,svg}",
+                    { eager: true, as: "url" },
+                  );
+                  const entry = Object.entries(modules).find(([p]) =>
+                    p.toLowerCase().includes("bbd"),
+                  );
                   const logoUrl = entry ? entry[1] : null;
                   return logoUrl ? (
                     <img src={logoUrl} alt="BBD logo" className={styles.logo} />
