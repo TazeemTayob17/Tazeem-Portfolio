@@ -25,7 +25,7 @@ function WorkExperience() {
           <div className={styles.cardHeader}>
             <div>
               <h3 className={styles.roleTitle}>
-                Software Engineering Internship
+                Software Engineering Vacation Work
               </h3>
               <div className={styles.company}>BBD Software</div>
             </div>
