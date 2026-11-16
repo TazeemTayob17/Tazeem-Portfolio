@@ -1,6 +1,8 @@
 @import "../../vars.css";
 
 .container {
+  position: relative;
+  z-index: 1;
   margin-top: 76px;
   color: var(--colour-text);
   margin-left: 10%;
@@ -16,12 +18,15 @@
 
 .content {
   margin-top: 24px;
+  margin-top: 24px;
   display: flex;
   flex-direction: row;
   gap: 20px;
 }
 
 .card {
+  flex: 1;
+  min-width: 0;
   padding: 32px;
   border-radius: 16px;
   background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.00));
@@ -112,3 +117,5 @@
   .content{flex-direction: column}
   .accent{display:none}
 }
+
+.logoLight{background:#fff;padding:4px 6px}

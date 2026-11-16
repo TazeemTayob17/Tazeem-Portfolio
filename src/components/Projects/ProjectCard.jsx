@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./ProjectCard.module.css";
 import getImageUrl from "../../utils";
 
-const skillImages = import.meta.glob("../../assets/projects/*.png", {
+const skillImages = import.meta.glob("../../assets/projects/*.{png,jpg,svg}", {
   eager: true,
   import: "default",
 });
@@ -40,9 +40,11 @@ const ProjectCard = ({
             Demo
           </a>
         )}
-        <a href={source} className={styles.link}>
-          Source
-        </a>
+        {source && (
+          <a href={source} className={styles.link}>
+            Source
+          </a>
+        )}
       </div>
     </div>
   );

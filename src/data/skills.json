@@ -34,5 +34,41 @@
   {
     "title": "SQL",
     "imageSrc": "skills/sql-logo.png"
+  },
+  {
+    "title": "Spring Boot",
+    "imageSrc": "skills/springboot.svg"
+  },
+  {
+    "title": "Docker",
+    "imageSrc": "skills/docker.svg"
+  },
+  {
+    "title": "AWS",
+    "imageSrc": "skills/aws.svg"
+  },
+  {
+    "title": "Terraform",
+    "imageSrc": "skills/terraform.svg"
+  },
+  {
+    "title": "PostgreSQL",
+    "imageSrc": "skills/postgres.svg"
+  },
+  {
+    "title": "React Native",
+    "imageSrc": "skills/reactnative.svg"
+  },
+  {
+    "title": "TypeScript",
+    "imageSrc": "skills/typescript.svg"
+  },
+  {
+    "title": "Microsoft Azure",
+    "imageSrc": "skills/azure.svg"
+  },
+  {
+    "title": "AI/ML",
+    "imageSrc": "skills/aiml.svg"
   }
 ]

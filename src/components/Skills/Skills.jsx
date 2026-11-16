@@ -1,6 +1,6 @@
 import React from "react";
 
-const skillImages = import.meta.glob("../../assets/skills/*.png", {
+const skillImages = import.meta.glob("../../assets/skills/*.{png,svg}", {
   eager: true,
   import: "default",
 });
